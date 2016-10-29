@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OctoPrint 1.2.16.dev44+ge19ecb0\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
-"POT-Creation-Date: 2016-10-29 18:10+0200\n"
-"PO-Revision-Date: 2016-10-29 17:11+0200\n"
+"POT-Creation-Date: 2016-10-29 19:35+0200\n"
+"PO-Revision-Date: 2016-10-29 19:39+0200\n"
 "Last-Translator: Marek Pikuła <marek.pikula@sent.tech>\n"
 "Language: pl\n"
 "Language-Team: SENT Technology <sent@sent.tech>\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: src/octoprint/plugins/announcements/__init__.py:88
 #: src/octoprint/plugins/announcements/templates/announcements.jinja2:4
@@ -90,34 +91,33 @@ msgstr "Odśwież ogłoszenia"
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:1
 #: src/octoprint/server/views.py:526
 msgid "Access Control"
-msgstr ""
+msgstr "Kontrola dostępu"
 
 #: src/octoprint/plugins/corewizard/__init__.py:125
 #: src/octoprint/server/views.py:514
 msgid "Webcam & Timelapse"
-msgstr ""
+msgstr "Kamera i timelapse"
 
 #: src/octoprint/plugins/corewizard/__init__.py:140
 #: src/octoprint/plugins/corewizard/templates/corewizard_servercommands_wizard.jinja2:1
 msgid "Server Commands"
-msgstr ""
+msgstr "Komendy serwera"
 
 #: src/octoprint/plugins/corewizard/__init__.py:151
-#, fuzzy
 msgid "Default Printer Profile"
-msgstr "Usuń profil"
+msgstr "Domyślny profil drukarki"
 
 #: src/octoprint/plugins/corewizard/static/js/corewizard.js:43
 msgid "If you disable Access Control <strong>and</strong> your OctoPrint installation is accessible from the internet, your printer <strong>will be accessible by everyone - that also includes the bad guys!</strong>"
-msgstr ""
+msgstr "Jeżeli wyłączysz Kontrolę dostępu <strong>i</strong> twój OctoPrint jest dostępny przez internet, twoja drukarka <strong>będzie dostępna dla każdego – włącznie z złymi ludźmi!</strong>"
 
 #: src/octoprint/plugins/corewizard/static/js/corewizard.js:79
 msgid "Please set up Access Control"
-msgstr ""
+msgstr "Proszę ustawić Kontrolę dostępu"
 
 #: src/octoprint/plugins/corewizard/static/js/corewizard.js:80
 msgid "You haven't yet set up access control. You need to either setup a username and password and click \"Keep Access Control Enabled\" or click \"Disable Access Control\" before continuing"
-msgstr ""
+msgstr "Kontrola dostępu nie została ustawiona. Aby kontynuować musisz wpisać nazwę użytkownika i hasło oraz nacisnąć „Pozostaw włączoną Kontrolę dostępu” lub naciśnij „Wyłącz Kontrolę dostępu”."
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:3
 msgid ""
@@ -136,13 +136,27 @@ msgid ""
 "    on \"Keep Access Control Enabled\":\n"
 "</p>"
 msgstr ""
+"<p>\n"
+"    <strong>Proszę przeczytać poniższe ostrzeżenie – jest bardzo istotne dla zdrowia twojej drukarki!</strong>\n"
+"</p>\n"
+"<p>\n"
+"    Domyślnie OctoPrint zapewnia Kontrolę dostępu, co znaczy, że nie będzie można nic zrobić z drukarką\n"
+"    dopóki skonfigurowany użytkownik się nie zaloguje. W ten sposób <strong>ograniczony jest dostęp dla\n"
+"    obcych – możliwe, że ze złymi zamiarami</strong> przez internet lub inną niezaufaną sieć i używanie jej\n"
+"    w sposób niebezpieczny, co może prowadzić do jej uszkodzenia lub np. spowodowania ognia.\n"
+"</p>\n"
+"<p>\n"
+"    Wygląda na to, że Kontrola dostępu nie została jeszcze skonfigurowana. Proszę <strong>ustawić nazwę użytkownika\n"
+"     i hasło</strong> dla administratora, który będzie mieć pełne prawa do drukarki i ustawień OctoPrint i naciśnij\n"
+"    „Pozostaw włączoną Kontrolę dostępu”:\n"
+"</p>"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:19
 #: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:45
 #: src/octoprint/templates/navbar/login.jinja2:6
 #: src/octoprint/templates/navbar/login.jinja2:7
 msgid "Username"
-msgstr ""
+msgstr "Nazwa użytkownika"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:25
 #: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:51
@@ -150,18 +164,18 @@ msgstr ""
 #: src/octoprint/templates/navbar/login.jinja2:8
 #: src/octoprint/templates/navbar/login.jinja2:9
 msgid "Password"
-msgstr ""
+msgstr "Hasło"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:31
 msgid "Confirm Password"
-msgstr ""
+msgstr "Potwierdź hasło"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:34
 #: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:60
 #: src/octoprint/templates/dialogs/settings/accesscontrol.jinja2:131
 #: src/octoprint/templates/dialogs/usersettings/access.jinja2:17
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Hasła nie pasują"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:38
 msgid ""
@@ -174,14 +188,22 @@ msgid ""
 "    <strong>Do NOT underestimate the risk of an unsecured access from the internet to your printer!</strong>\n"
 "</p>"
 msgstr ""
+"<p>\n"
+"    <strong>Pamiętaj:</strong> Tylko w przypadku, gdy twoja instalacja OctoPrint jest dostępna tylko w zaufanej sieci lub z jakiegoś\n"
+"    powodu nie chcesz mieć włączonej Kontroli dostępu, możesz ją wyłączyć. Powinieneś to zrobić tylko jeżeli\n"
+"    jest absolutna pewność, że tylko ludzie, których znasz i którym ufasz będą mieli możliwość połączenia.\n"
+"</p>\n"
+"<p>\n"
+"    <strong>Nie lekceważ ryzyka niezabezpieczonego dostępu do twojej drukarki z internetu!</strong>\n"
+"</p>"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:48
 msgid "Disable Access Control"
-msgstr ""
+msgstr "Wyłącz Kontrolę dostępu"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:49
 msgid "Keep Access Control Enabled"
-msgstr ""
+msgstr "Pozostaw włączoną Kontrolę dostępu"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:53
 msgid ""
@@ -189,6 +211,9 @@ msgid ""
 "        Access control is <strong class=\"text-success\">enabled</strong>.\n"
 "    "
 msgstr ""
+"\n"
+"        Kontrola dostępu jest <strong class=\"text-success\">włączona</strong>.\n"
+"    "
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_acl_wizard.jinja2:56
 msgid ""
@@ -196,16 +221,21 @@ msgid ""
 "        Access control is <strong class=\"text-danger\">disabled</strong>.\n"
 "    "
 msgstr ""
+"\n"
+"        Kontrola dostępu jest <strong class=\"text-danger\">wyłączona</strong>.\n"
+"    "
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_printerprofile_wizard.jinja2:1
 msgid "Set up your printer profile"
-msgstr ""
+msgstr "Ustawienia profilu drukarki"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_printerprofile_wizard.jinja2:2
 msgid ""
 "Please make sure the settings below match your printer. If you plan on connecting more than one printer\n"
 "to OctoPrint, you can also configure additional printer profiles under Settings > Printer Profiles"
 msgstr ""
+"Proszę się upewnić, że ustawienia poniżej są dobre dla twojej drukarki. Jeżeli planujesz podłączyć więcej niż\n"
+"jedną drukarkę do OctoPrint, możesz skonfigurować dodatkowe profile pod: Ustawienia → Profile drukarki"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_printerprofile_wizard.jinja2:7
 #: src/octoprint/plugins/cura/templates/cura_settings.jinja2:1
@@ -215,15 +245,15 @@ msgstr "Ogólne"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_printerprofile_wizard.jinja2:8
 msgid "Print bed & build volume"
-msgstr ""
+msgstr "Stół i przestrzeń wydruku"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_printerprofile_wizard.jinja2:9
 msgid "Axes"
-msgstr ""
+msgstr "Osie"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_printerprofile_wizard.jinja2:10
 msgid "Hotend & extruder"
-msgstr ""
+msgstr "Hotend i ekstruder"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_servercommands_wizard.jinja2:3
 msgid ""
@@ -232,18 +262,22 @@ msgid ""
 "    down the system it is running on. You may configure those here.\n"
 "</p>"
 msgstr ""
+"<p>\n"
+"    OctoPrint wspiera wywoływanie zewnętrznych komend w celu ponownego uruchomienia siebie i/lub\n"
+"    wyłączenia systemu, na którym jest uruchomione. Możesz je skonfigurować tutaj.\n"
+"</p>"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_servercommands_wizard.jinja2:8
 msgid "OctoPrint related commands"
-msgstr ""
+msgstr "Komendy dotyczące OctoPrint"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_servercommands_wizard.jinja2:14
 msgid "System related commands"
-msgstr ""
+msgstr "Komendy dotyczące systemu"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_webcam_wizard.jinja2:1
 msgid "Webcam &amp; Timelapse Recordings"
-msgstr ""
+msgstr "Kamera i nagrywanie timelapsów"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_webcam_wizard.jinja2:3
 msgid ""
@@ -251,11 +285,14 @@ msgid ""
 "    If you have a webcam, you may now configure it here.\n"
 "</p>"
 msgstr ""
+"<p>\n"
+"    Jeżeli masz kamerkę internetową, możesz ją skonfigurować tutaj.\n"
+"</p>"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_webcam_wizard.jinja2:7
 #: src/octoprint/templates/dialogs/settings/webcam.jinja2:1
 msgid "Webcam"
-msgstr ""
+msgstr "Kamera"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_webcam_wizard.jinja2:9
 msgid ""
@@ -341,9 +378,8 @@ msgid "For more information on configuration and usage please <a href=\"%(plugin
 msgstr "Więcej informacji odnośnie konfiguracji i sposobu użycia można znaleźć na <a href=\"%(plugin_cura_homepage)s\" target=\"_blank\">stronie pluginów</a>,"
 
 #: src/octoprint/plugins/cura/templates/cura_wizard.jinja2:2
-#, fuzzy
 msgid "Configure CuraEngine"
-msgstr "Skonfiguruj kanały"
+msgstr "Skonfiguruj silnik Cura"
 
 #: src/octoprint/plugins/cura/templates/cura_wizard.jinja2:3
 msgid ""
@@ -1132,9 +1168,8 @@ msgstr ""
 
 #: src/octoprint/server/views.py:498
 #: src/octoprint/templates/sidebar/state.jinja2:4
-#, fuzzy
 msgid "Timelapse"
-msgstr "Usuń niewyrenderowany timelapse"
+msgstr "Timelapse"
 
 #: src/octoprint/server/views.py:503
 msgid "Printer"
@@ -1937,7 +1972,7 @@ msgstr ""
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:307
 msgid "Rendering timelapse"
-msgstr ""
+msgstr "Renderowanie timelapsu"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:308
 #, python-format
@@ -1945,9 +1980,8 @@ msgid "Now rendering timelapse %(movie_prefix)s. Due to performance reasons it i
 msgstr ""
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:317
-#, fuzzy
 msgid "Cannot render timelapse"
-msgstr "Wyrenderuj timelapse"
+msgstr "Nie da się wyrenderować timelapsu"
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:318
 #, python-format
@@ -1956,9 +1990,8 @@ msgstr ""
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:320
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:324
-#, fuzzy
 msgid "Rendering timelapse failed"
-msgstr "Wyrenderuj timelapse"
+msgstr ""
 
 #: src/octoprint/static/js/app/viewmodels/timelapse.js:321
 #, python-format
@@ -2233,9 +2266,8 @@ msgid "Last update:"
 msgstr ""
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:68
-#, fuzzy
 msgid "Delete"
-msgstr "Usuń niewyrenderowany timelapse"
+msgstr ""
 
 #: src/octoprint/templates/dialogs/settings/appearance.jinja2:79
 msgid "No additional Language Packs are installed at the moment."
@@ -3212,11 +3244,11 @@ msgstr "Interwał"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:37
 msgid "Retraction Z-Hop (in mm)"
-msgstr ""
+msgstr "Przeniesienie Z podczas retrakcji (w mm)"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:42
 msgid "Enter the retraction z-hop used in the firmware or the gcode file to trigger snapshots for the timelapse only if a real layer change happens. For this to work properly your retraction z-hop has to be different from your layerheight!"
-msgstr ""
+msgstr "Podaj wartość przeniesienia Z podczas retrakcji używaną w oprogramowaniu lub pliku gcode, żeby wyzwalać migawkę dla timelapsu tylko dla rzeczywistej zmiany warstwy. Działa to poprawnie tylko jeżeli jest to wartość inna niż wysokość warstwy!"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:47
 msgid "Save as default"
@@ -3240,7 +3272,7 @@ msgstr "Niewyrenderowane timelapsy"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:96
 msgid "Frames"
-msgstr ""
+msgstr "Klatki"
 
 #: src/octoprint/templates/tabs/timelapse.jinja2:108
 msgid "Delete unrendered timelapse"
@@ -3249,190 +3281,3 @@ msgstr "Usuń niewyrenderowany timelapse"
 #: src/octoprint/templates/tabs/timelapse.jinja2:108
 msgid "Render timelapse"
 msgstr "Wyrenderuj timelapse"
-
-#~ msgid "Path to CuraEngine"
-#~ msgstr "Ścieżka do silnika Cura"
-
-#~ msgid "Log the output of CuraEngine to <code>plugin_cura_engine.log</code>"
-#~ msgstr "Zapisuj wyjście silnika Cura do <code>plugin_cura_engine.log</code>"
-
-#~ msgid "Make default"
-#~ msgstr "Ustaw jako domyślny"
-
-#~ msgid "Import Existing Cura Profile"
-#~ msgstr "Importuj istniejący profil Cura"
-
-#~ msgid "Profile ini file"
-#~ msgstr "Plik ini profilu"
-
-#~ msgid "Description"
-#~ msgstr "Opis"
-
-#~ msgid "Overwrite existing file"
-#~ msgstr "Nadpisz istniejący plik"
-
-#~ msgid ""
-#~ msgstr ""
-
-#~ msgid "Bundled"
-#~ msgstr "Dołączone"
-
-#~ msgid "pip command"
-#~ msgstr "Komenda pip"
-
-#~ msgid "Autodetect"
-#~ msgstr "Automatyczne wykrywanie"
-
-#~ msgid "Please define the maximum speed/feedrate of the individual axes and whether their control should be inverted or not."
-#~ msgstr ""
-
-#~ msgid "X"
-#~ msgstr ""
-
-#~ msgid "Invert control"
-#~ msgstr ""
-
-#~ msgid "Y"
-#~ msgstr ""
-
-#~ msgid "Z"
-#~ msgstr ""
-
-#~ msgid "E"
-#~ msgstr ""
-
-#~ msgid "This information is used for manual control via the \"Control\" tab. It does NOT influence already sliced files that you upload to OctoPrint!"
-#~ msgstr ""
-
-#~ msgid "Form Factor"
-#~ msgstr ""
-
-#~ msgid "Rectangular"
-#~ msgstr ""
-
-#~ msgid "Circular"
-#~ msgstr ""
-
-#~ msgid "Origin"
-#~ msgstr ""
-
-#~ msgid "Heated Bed"
-#~ msgstr ""
-
-#~ msgid "Please define the print volume."
-#~ msgstr ""
-
-#~ msgid "Width (X)"
-#~ msgstr ""
-
-#~ msgid "Depth (Y)"
-#~ msgstr ""
-
-#~ msgid "Diameter (X/Y)"
-#~ msgstr ""
-
-#~ msgid "Height (Z)"
-#~ msgstr ""
-
-#~ msgid "This information is used for the GCODE Viewer and/or when slicing from OctoPrint. It does NOT influence already sliced files that you upload to OctoPrint!"
-#~ msgstr ""
-
-#~ msgid "Nozzle Diameter"
-#~ msgstr ""
-
-#~ msgid "Number of Extruders"
-#~ msgstr ""
-
-#~ msgid "Please specify the nozzle offsets of the extruders relative to the first nozzle T0."
-#~ msgstr ""
-
-#~ msgid "This information is used for the graph and controls available in the \"Temperature\" tab, the GCODE viewer and when slicing from within OctoPrint. It does NOT influence already sliced files that you upload to OctoPrint!"
-#~ msgstr ""
-
-#~ msgid "Name must be set"
-#~ msgstr ""
-
-#~ msgid "Identifier"
-#~ msgstr "identyfikatora"
-
-#~ msgid "Model"
-#~ msgstr ""
-
-#~ msgid "Set as default profile"
-#~ msgstr ""
-
-#~ msgid "Edit Profile"
-#~ msgstr ""
-
-#~ msgid "Delete Profile"
-#~ msgstr "Usuń profil"
-
-#~ msgid "Command to restart the OctoPrint server"
-#~ msgstr ""
-
-#~ msgid "Restart OctoPrint"
-#~ msgstr ""
-
-#~ msgid "Command to restart the system OctoPrint is running on"
-#~ msgstr ""
-
-#~ msgid "Restart system"
-#~ msgstr ""
-
-#~ msgid "Command to shut down the system OctoPrint is running on"
-#~ msgstr ""
-
-#~ msgid "Shutdown system"
-#~ msgstr ""
-
-#~ msgid "Bitrate to use for encoding the timelapse video"
-#~ msgstr ""
-
-#~ msgid "Timelapse bitrate"
-#~ msgstr ""
-
-#~ msgid "Full path to the FFMPEG binary"
-#~ msgstr ""
-
-#~ msgid "Path to FFMPEG"
-#~ msgstr ""
-
-#~ msgid "Test"
-#~ msgstr ""
-
-#~ msgid "Number of FFMPEG encoding threads"
-#~ msgstr ""
-
-#~ msgid "FFMPEG threads"
-#~ msgstr ""
-
-#~ msgid "Enable OctoPrint watermark in timelapse movies"
-#~ msgstr ""
-
-#~ msgid "Flip webcam horizontally"
-#~ msgstr ""
-
-#~ msgid "Flip webcam vertically"
-#~ msgstr ""
-
-#~ msgid "Rotate webcam 90 degrees counter clockwise"
-#~ msgstr ""
-
-#~ msgid "URL to use for retrieving webcam snapshot images for timelapse creation"
-#~ msgstr ""
-
-#~ msgid "Snapshot URL"
-#~ msgstr ""
-
-#~ msgid "Fully qualified URL, needs to be reachable by OctoPrint's server"
-#~ msgstr ""
-
-#~ msgid "URL to embed into the UI for live viewing of the webcam stream"
-#~ msgstr ""
-
-#~ msgid "Stream URL"
-#~ msgstr ""
-
-#~ msgid "Needs to be reachable from the browser displaying the OctoPrint UI, used to embed the webcam stream into the page."
-#~ msgstr ""
-
